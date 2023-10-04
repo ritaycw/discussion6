@@ -1,0 +1,116 @@
+body{
+   line-height: 2;
+}
+
+
+header, nav {
+    padding-top: 10px;
+    padding-left: 15px;
+    margin: 0 0 20px 10px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around
+}
+
+nav ul li{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 30px;
+    background-color: blanchedalmond;
+}
+
+nav a{
+    /* Set text decoration*/
+}
+
+a:visited{
+    /* Set color */
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   font-family: 'Merriweather', 'Anton', 'Times New Roman', 'Arial';
+   font-size: 50px;
+   font-weight: bolder;
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+    font-family: 'Anton', 'Times New Roman', 'Arial';
+    font-size: 40px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+
+}
+
+h1, h2, h3{
+    margin: 10px;
+
+}
+.grid{
+    width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-content: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    /* border-radius: 8px; */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    box-shadow: 5px 5px lightgray;
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */
+    box-shadow: 5px 5px lightgray;
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+     box-shadow: 5px 5px lightgray;
+}
+
+
+p + p {
+     /* Set indentation */
+  }
+
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
